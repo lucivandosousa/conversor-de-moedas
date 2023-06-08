@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <title>Conversor de moedas</title>
 </head>
 
@@ -18,26 +19,23 @@
     </header>
 
     <main>
-      <label for="">Converter de
-        <select>
-          <option value="">R$ Real</option>
-        </select>
-      </label>
+      <label for="">Converter <strong>de</strong></label>
+      <select>
+        <option value="">R$ Real</option>
+      </select>
 
-      <label for="">Converter para
-        <select>
-          <option value="">US$ Dólar</option>
-          <option value="">€ Euro</option>
-        </select>
-      </label>
+      <label for="">Converter <strong>para</strong></label>
+      <select>
+        <option value="">US$ Dólar</option>
+        <option value="">€ Euro</option>
+      </select>
 
-      <label for="">Valor
-        <input type="text" placeholder="R$ 100.000,00">
-      </label>
+      <label for="">Valor</label>
+      <input type="text" placeholder="R$ 100.000,00">
 
       <input type="button" value="Converter">
 
-      <section>
+      <section class="info-dados">
         <div>
           <img src="./assets/brasil.png" alt="">
           <p>Real</p>
