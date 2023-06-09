@@ -21,39 +21,40 @@
     <main>
       <section>
         <label for="">Converter <strong>de</strong></label>
-        <select>
+        <select id="selectReal">
           <option value="">R$ Real</option>
         </select>
 
         <label for="">Converter <strong>para</strong></label>
-        <select>
-          <option value="">US$ Dólar</option>
-          <option value="">€ Euro</option>
+        <select id="selectOption">
+          <option>$ Dólar</option>
+          <option>€ Euro</option>
         </select>
 
         <label for="">Valor</label>
-        <input type="text" placeholder="R$ 100.000,00">
+        <input id="valueToConvert" type="text" placeholder="R$ 100.000,00">
 
-        <input type="button" value="Converter">
+        <input id="buttonConvert" type="button" value="Converter">
       </section>
 
       <section class="info-dados">
         <div>
           <img src="./assets/brasil.png" alt="">
           <p>Real</p>
-          <p>R$ 0,00</p>
+          <p id="info-dados-valueToConvert">R$ 0,00</p>
         </div>
 
         <img src="./assets/arrow.png" alt="">
 
         <div>
-          <img src="./assets/eua.png" alt="">
-          <p>Dólar</p>
-          <p>US$ 0,00</p>
+          <img id="imgCurrency" src="./assets/eua.png" alt="">
+          <p id="textCurrency" >Dólar</p>
+          <p id="info-dados-valueConverted">$0,00</p>
         </div>
       </section>
     </main>
   </div>
+  <script src="./script.js"></script>
 </body>
 
 </html>
