@@ -97,3 +97,9 @@ input[type=button]:active {
   line-height: 18px;
   color: #777777;
 }
+
+#info-dados-valueToConvert,
+#info-dados-valueConverted {
+  color: #1B83E3;
+  font-weight: bold;
+}
